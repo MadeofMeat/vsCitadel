@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/stone-andesite/reinforcementStrength",
+    "value": 25,
+    "file": "itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/stone-basalt/reinforcementStrength",
+    "value": 25,
+    "file": "itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/stone-granite/reinforcementStrength",
+    "value": 25,
+    "file": "itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/stone-obsidian/reinforcementStrength",
+    "value": 25,
+    "file": "itemtypes/resource/stone.json"
+  }
+]

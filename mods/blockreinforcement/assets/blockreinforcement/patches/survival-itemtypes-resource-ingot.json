@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/ingot-copper",
+    "value": {
+      "reinforcementStrength": 100
+    },
+    "file": "itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/ingot-iron",
+    "value": {
+      "reinforcementStrength": 400
+    },
+    "file": "itemtypes/resource/ingot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/ingot-tinbronze",
+    "value": {
+      "reinforcementStrength": 200
+    },
+    "file": "itemtypes/resource/ingot.json"
+  }
+]
