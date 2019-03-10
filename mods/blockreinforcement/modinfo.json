@@ -2,9 +2,9 @@
   "type": "code",
   "modid": "blockreinforcement",
   "name": "blockreinforcement",
-  "author": "Unknown",
-  "description": "To be added",
-  "version": "1.0.0",
+  "author": "Tyron",
+  "description": "Adds the ability to protect blocks using the square and plumb tool",
+  "version": "1.0.1",
   "dependency": {
     "game": ""
   }

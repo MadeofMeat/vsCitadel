@@ -10,6 +10,7 @@ using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Server;
 using Vintagestory.API.Util;
+using Vintagestory.Server;
 
 namespace VSMods
 {
@@ -150,6 +151,10 @@ namespace VSMods
         Dictionary<int, BlockReinforcement> getOrCreateReinforcmentsAt(BlockPos pos)
         {
             IServerChunk chunk = (api as ICoreServerAPI).WorldManager.GetChunk(pos);
+
+            // Fix v1.8 game engine bug (can be removed for v1.9)
+            if ((chunk as ServerChunk).Moddata == null) (chunk as ServerChunk).Moddata = new Dictionary<string, byte[]>();
+
             byte[] data = chunk.GetModdata("reinforcements");
             Dictionary<int, BlockReinforcement> reinforcmentsOfChunk = null;
 
