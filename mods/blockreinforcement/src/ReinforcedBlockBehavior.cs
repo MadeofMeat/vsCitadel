@@ -28,7 +28,7 @@ namespace VSMods
 
             int strength = bre.GetRemainingStrength(pos);
 
-            (byPlayer as IServerPlayer).SendMessage(GlobalConstants.CurrentChatGroup, "Strength left: " + strength, EnumChatType.Notification);
+            (byPlayer as IServerPlayer).SendMessage(GlobalConstants.DamageLogChatGroup, "Strength left: " + strength, EnumChatType.Notification);
 
 
             if (strength > 0)
